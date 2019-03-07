@@ -123,6 +123,8 @@ public class ContenitoreCards : MonoBehaviour {
 
 			CalculateEncounterDistribution(encounterPower, maxPowerLevel);			
 			ShuffleShipsOrder(encounterPower);
+           // for (int i = 0; i < encounterPower.shipPower.Count; i++)
+           //     Debug.LogWarning(encounterPower.shipPower[i]);
 
 			List<CardsData> enemyShips = new List<CardsData>();
 			
@@ -130,7 +132,7 @@ public class ContenitoreCards : MonoBehaviour {
 			{
 				Fazioni actFaction = potenzaFazioni.PossibiliFazioniDaIncontrare[Random.Range(0, potenzaFazioni.PossibiliFazioniDaIncontrare.Length)];
 				List<ShipsList> enemyShipsDb = GetShipsListFromFaction(actFaction);
-				List<CardsData> rightLevelShipsList = enemyShipsDb[encounterPower.shipPower[i]].Ships;
+				List<CardsData> rightLevelShipsList = enemyShipsDb[encounterPower.shipPower[i]-1].Ships;
 				CardsData actEnemyShip = rightLevelShipsList[Random.Range(0, rightLevelShipsList.Count)];
 				enemyShips.Add(actEnemyShip);
 			}
@@ -153,7 +155,7 @@ public class ContenitoreCards : MonoBehaviour {
 			randomRangeMax = 1 + Mathf.Min(maxPowerLevel, levelManager.LevelIncontro - encounterPower.GetTotalEncounterLevel());
 			if (randomRangeMax > 1)
 			{
-				encounterPower.shipPower.Add(Random.Range(1, randomRangeMax));
+				encounterPower.shipPower.Add(Random.Range((int)1, (int)randomRangeMax));
 			}
 		}
 	}
