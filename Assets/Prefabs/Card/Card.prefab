@@ -945,6 +945,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   data: {fileID: 0}
+  injuredcolor: {r: 1, g: 0.63026214, b: 0, a: 1}
+  supportcolor: {r: 0, g: 0.9999995, b: 1, a: 1}
   soundCreature: {fileID: 0}
   Zone: 0
   combatManager: {fileID: 0}

@@ -178,40 +178,75 @@ MonoBehaviour:
   - faction: 5
     level:
     - Ships:
-      - {fileID: 11400000, guid: 6d5f91ed2473e284e9618b5c412b8e3e, type: 2}
+      - {fileID: 11400000, guid: 730c9dace34fa2744a96d04d1ff5050f, type: 2}
+      - {fileID: 11400000, guid: 40be93227526e1640a8945ccb6d3d4ec, type: 2}
+      - {fileID: 11400000, guid: 60b3cbcfe64ff8c4aab3e49ad92e6049, type: 2}
+      - {fileID: 11400000, guid: 62d08bb995022fd4794a4e5fbf93ccd6, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 832a24f6b5a3bf5428662f67364e0206, type: 2}
+      - {fileID: 11400000, guid: 95fae098a140e004e8b39e1e3f9f702f, type: 2}
+      - {fileID: 11400000, guid: 80485587162f63b4f847111d1bd47b62, type: 2}
+      - {fileID: 11400000, guid: e467a9b2c43045f47ad161031235c75c, type: 2}
+      - {fileID: 11400000, guid: fc2c6e90999d5ac4ead61b3d28e23f5f, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: eea3806c54ab5ec4eb53f6852cf494a3, type: 2}
+      - {fileID: 11400000, guid: e1b6e698c8b47574da928dc2685b527e, type: 2}
+      - {fileID: 11400000, guid: 06b53c86aeb90054eb0e2d17945a4e15, type: 2}
   - faction: 3
     level:
     - Ships:
-      - {fileID: 11400000, guid: 2628c299008825d488f9e762c039c111, type: 2}
+      - {fileID: 11400000, guid: fedf0770d42b6324d99d07cbc91fc0ea, type: 2}
+      - {fileID: 11400000, guid: 82ea7bfa1d67345419212edb1808433a, type: 2}
+      - {fileID: 11400000, guid: d98ff508566d6ad45a9c6e7d9bd3716a, type: 2}
+      - {fileID: 11400000, guid: c53cea968d4c8d54a9651839ffea2555, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 7a976606898ac094b95da54f3c9d8b11, type: 2}
+      - {fileID: 11400000, guid: 41655efb9adbeb4428e78a76c20b2b50, type: 2}
+      - {fileID: 11400000, guid: f91465b9da9d1654d86d80996d9a0e4b, type: 2}
+      - {fileID: 11400000, guid: d9b6fe68c1020db46bc5566ffdbb91bc, type: 2}
+      - {fileID: 11400000, guid: 387572d88671dc44e9c74ba2f019cd13, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 913b24d8d67de144fa72a0ebeeddbc97, type: 2}
+      - {fileID: 11400000, guid: 6dd964a3f650f5149b60c2e6625a5c6c, type: 2}
+      - {fileID: 11400000, guid: 36bbf9693c2d0f74a9f418c09cd7a94d, type: 2}
   - faction: 1
     level:
     - Ships:
-      - {fileID: 11400000, guid: 51c6a9324d413e244ad0aa6c83869f27, type: 2}
+      - {fileID: 11400000, guid: e74a3b4002f545b49a1305abe81e9919, type: 2}
+      - {fileID: 11400000, guid: f15dbbb4ea83edf4baabbcbcc271302f, type: 2}
+      - {fileID: 11400000, guid: e352e19e1ed1e2f459ad6e59a57f3274, type: 2}
+      - {fileID: 11400000, guid: c030404079ca1204aaeba68c7ca76d18, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: ee65b52102c16424095a9ea65548068a, type: 2}
+      - {fileID: 11400000, guid: 570c8703b47ef3c4aa1dabbf60e8beeb, type: 2}
+      - {fileID: 11400000, guid: 07372f1fe641fae4792af516445e7a24, type: 2}
+      - {fileID: 11400000, guid: e135d03b5a4e6f94bb093fa62479bac6, type: 2}
+      - {fileID: 11400000, guid: d90d360161c6e8e48951de25821e272e, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: db27541b02bb56443af31a4468a16104, type: 2}
+      - {fileID: 11400000, guid: 4e65034e443d01f408110ae79a0a5eb8, type: 2}
+      - {fileID: 11400000, guid: f55cef7e037fc3f488c49956d3fa9f4a, type: 2}
   - faction: 4
     level:
     - Ships:
-      - {fileID: 11400000, guid: 9c75f7000bd5f3c4b982f31c275fe236, type: 2}
+      - {fileID: 11400000, guid: 56c74122fe2a75440af04d9e3a9169a7, type: 2}
+      - {fileID: 11400000, guid: 487b5ed1bbd8e9443970e39c480a0134, type: 2}
+      - {fileID: 11400000, guid: a213a813e7230ab40895a5e3f497ce1f, type: 2}
+      - {fileID: 11400000, guid: 21383380416f33948a014c94d9382d4d, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 003427e7f9fede74682ea5477ec5fbe3, type: 2}
+      - {fileID: 11400000, guid: 896bdb507c223a342b48229fc52f45c4, type: 2}
+      - {fileID: 11400000, guid: fd8bd07674c56e942aa99232c323a58f, type: 2}
+      - {fileID: 11400000, guid: 9a9b39d0d5354df4187a7ffc04233326, type: 2}
+      - {fileID: 11400000, guid: bc4756dfe338eb040b685375d78fd948, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 4b206b6522f369f4b893e3e943a0c8e5, type: 2}
+      - {fileID: 11400000, guid: a7224c2b1c532f04fb656768ebf42b8a, type: 2}
+      - {fileID: 11400000, guid: b6081573b05ce7c4db4e456e4fde2907, type: 2}
   - faction: 0
     level:
     - Ships:
-      - {fileID: 11400000, guid: 9898a94a50ee34941aa520c1da61f86e, type: 2}
+      - {fileID: 11400000, guid: a8282f1121861af4c99cfad8d6d146c9, type: 2}
+      - {fileID: 11400000, guid: e9293856f2bec74458b5cb363fc8a866, type: 2}
+      - {fileID: 11400000, guid: dbaa4022987245741aa4aec19b59bb6b, type: 2}
+      - {fileID: 11400000, guid: dfa579324af5c974ebf6c38430c6b563, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 3528ef01a6cc8dd4bb1df815b454e137, type: 2}
+      - {fileID: 11400000, guid: 616554eca12fba24daeff2aa9cb4fd31, type: 2}
+      - {fileID: 11400000, guid: 150579ce2e20fbd48a3663277f8e4653, type: 2}
+      - {fileID: 11400000, guid: 0ca8180068932a8408d7c34b3b287214, type: 2}
+      - {fileID: 11400000, guid: da95c4886d9964443bf35fad8566ad6f, type: 2}
     - Ships:
-      - {fileID: 11400000, guid: 2ad047fe4f79ee142a25276deda1e03b, type: 2}
+      - {fileID: 11400000, guid: d9b0aafe3b884ec40973ab4db66a975f, type: 2}
+      - {fileID: 11400000, guid: 9694ae9662c50b444b5624cee1e74a3f, type: 2}
