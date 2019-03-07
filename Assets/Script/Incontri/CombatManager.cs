@@ -26,6 +26,8 @@ public class CombatManager : MonoBehaviour
 	bool endFight;
     Card[] playedCards;
     public Transform recapPanel;
+    [SerializeField]
+    GameObject GenericCard;
 
 	public int purificationThreshold = 0;
 	[HideInInspector] public Card oldEnemy = null;
@@ -289,7 +291,8 @@ public class CombatManager : MonoBehaviour
             if (x == 2)
                 card2 = i;
 
-            card = Instantiate(Enemy.gameObject, chooseCardsPanel.GetChild(0));
+            card = Instantiate(GenericCard, chooseCardsPanel.GetChild(0));
+            card.GetComponent<Card>().Zone = DropZoneType.Hand;
             card.GetComponent<Card>().Data = contenitoreCards.Cards[i];
             card.AddComponent<ChoosePurification>().OriginalCard = Enemy;
             Destroy(card.GetComponent<Draggable>());
