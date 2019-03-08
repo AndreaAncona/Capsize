@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114284289854693948}
-  - {fileID: 114949241308936550}
-  - {fileID: 114503530126030222}
-  - {fileID: 114484226876523236}
-  - {fileID: 114625838910083786}
+  - {fileID: 114051586079138852}
+  - {fileID: 114137667451499342}
+  - {fileID: 114871902030544312}
+  - {fileID: 114219459151337132}
   EditorEvents:
   - {fileID: 114687119273491028}
   - {fileID: 114041971416391348}
@@ -36,9 +36,10 @@ MonoBehaviour:
   - {fileID: 114166840347882808}
   MasterBanks:
   - {fileID: 114625838910083786}
+  - {fileID: 114219459151337132}
   StringsBanks:
   - {fileID: 114284289854693948}
-  stringsBankWriteTime: 636876051085354074
+  stringsBankWriteTime: 636867008124255369
   cacheVersion: 3
 --- !u!114 &114009452201534572
 MonoBehaviour:
@@ -94,7 +95,7 @@ MonoBehaviour:
   Path: event:/Music/Map/Tavern Ambience
   guid: 60d16d530e7b3a4fbf40d4d51a607e81
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -116,7 +117,7 @@ MonoBehaviour:
   Path: event:/UI/Main_Menu/MM_Menu_Hover
   guid: 4dfd72f8e12ed94988555e6ad1c17d7d
   Banks:
-  - {fileID: 114949241308936550}
+  - {fileID: 114051586079138852}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -142,6 +143,25 @@ MonoBehaviour:
   - Name: 
     Value: 2346656
   Exists: 1
+--- !u!114 &114051586079138852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Andrea Ancona\Desktop\Capsize 2.0\Assets\Soundbanks\Desktop\Main
+    Menu.bank
+  lastModified: 636867008123905287
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 2346656
+  Exists: 1
 --- !u!114 &114063763657235804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +176,7 @@ MonoBehaviour:
   Path: event:/Music/Incontro/Fight Ambience
   guid: 4c12e441a7725e4db89a8b90cc026598
   Banks:
-  - {fileID: 114503530126030222}
+  - {fileID: 114137667451499342}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -298,6 +318,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 39
+--- !u!114 &114137667451499342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Andrea Ancona\Desktop\Capsize 2.0\Assets\Soundbanks\Desktop\Incontro.bank
+  lastModified: 636867008123655238
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 2275744
+  Exists: 1
 --- !u!114 &114139636389243048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,7 +390,7 @@ MonoBehaviour:
   Path: event:/UI/Map/Map_Incontro_Click
   guid: e125a1938082044b8aa7fbe07dcb64b2
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -392,7 +430,7 @@ MonoBehaviour:
   Path: event:/UI/Map/Map_Incontro_Hover
   guid: 23d1fc1762f4e44fb8940662be0c40bc
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -414,7 +452,7 @@ MonoBehaviour:
   Path: event:/UI/Incontro/Carte/Generici/Play
   guid: 80a1833b91df444caba4cabdcc2b5c6e
   Banks:
-  - {fileID: 114503530126030222}
+  - {fileID: 114137667451499342}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -477,6 +515,25 @@ MonoBehaviour:
   - Name: 
     Value: 13424
   Exists: 0
+--- !u!114 &114219459151337132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Andrea Ancona\Desktop\Capsize 2.0\Assets\Soundbanks\Desktop\Master
+    Bank.bank
+  lastModified: 636867008124235364
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 13424
+  Exists: 1
 --- !u!114 &114222555039168262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\Soundbanks\Desktop\Master Bank.strings.bank
-  lastModified: 636876051085354074
+  lastModified: 636867008124255369
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -722,7 +779,7 @@ MonoBehaviour:
   Path: event:/UI/Map/Map_Menu_Hover
   guid: a5c16c434d9fb54e991f9e38a2a63b93
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -766,7 +823,7 @@ MonoBehaviour:
   Path: event:/UI/Incontro/Cannone/Fight_Cannon_Fuse
   guid: 5db9588f76cdc24cbe621a8a8536d84d
   Banks:
-  - {fileID: 114503530126030222}
+  - {fileID: 114137667451499342}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -810,7 +867,7 @@ MonoBehaviour:
   Path: event:/UI/Incontro/Cannone/Fight_Cannon_Explosion
   guid: 4d9c84c47b3ba24988feb868b23f3fac
   Banks:
-  - {fileID: 114503530126030222}
+  - {fileID: 114137667451499342}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1027,7 +1084,7 @@ MonoBehaviour:
   Path: event:/UI/Main_Menu/MM_Menu_Click
   guid: b6d5a7ebce103041a23ba80ede67b963
   Banks:
-  - {fileID: 114949241308936550}
+  - {fileID: 114051586079138852}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1049,7 +1106,7 @@ MonoBehaviour:
   Path: event:/UI/Incontro/Menu
   guid: 27719bdef837794a8e07cf23406b8010
   Banks:
-  - {fileID: 114503530126030222}
+  - {fileID: 114137667451499342}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1092,7 +1149,7 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 13424
-  Exists: 1
+  Exists: 0
 --- !u!114 &114644908097161576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,7 +1186,7 @@ MonoBehaviour:
   Path: event:/UI/Map/Map_Deck_Click
   guid: 44f0c02e891f714e906653e3cdf0d509
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1191,7 +1248,7 @@ MonoBehaviour:
   Path: event:/Temp/Seagull OneShot
   guid: 40f9a7c81b20b643960d8d2616370320
   Banks:
-  - {fileID: 114949241308936550}
+  - {fileID: 114051586079138852}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1315,7 +1372,7 @@ MonoBehaviour:
   Path: event:/UI/Main_Menu/MM_Incontro_Click
   guid: cbdd050c07a34741a9aeaf65aaf96cd1
   Banks:
-  - {fileID: 114949241308936550}
+  - {fileID: 114051586079138852}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1337,7 +1394,7 @@ MonoBehaviour:
   Path: event:/Music/Main_Menu/Ross Bugden Theme
   guid: f78a99b7ec97584b83767f7ae0900a1a
   Banks:
-  - {fileID: 114949241308936550}
+  - {fileID: 114051586079138852}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1345,6 +1402,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 167000
+--- !u!114 &114871902030544312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Andrea Ancona\Desktop\Capsize 2.0\Assets\Soundbanks\Desktop\Map.bank
+  lastModified: 636867008124205370
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 3729344
+  Exists: 1
 --- !u!114 &114888270035068580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,7 +1453,7 @@ MonoBehaviour:
   Path: event:/UI/Map/Map_Menu_Click
   guid: 95af82cd048d404db6a378163dcb9cb4
   Banks:
-  - {fileID: 114484226876523236}
+  - {fileID: 114871902030544312}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

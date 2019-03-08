@@ -2097,6 +2097,16 @@ Prefab:
       value: 
       objectReference: {fileID: 1792809450547044, guid: 7f9983df1684a6242b8629d602e321e7,
         type: 2}
+    - target: {fileID: 114030526386715732, guid: 53603a8573235254db0c0b424746666f,
+        type: 2}
+      propertyPath: m_CellSize.x
+      value: 216
+      objectReference: {fileID: 0}
+    - target: {fileID: 114030526386715732, guid: 53603a8573235254db0c0b424746666f,
+        type: 2}
+      propertyPath: m_CellSize.y
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53603a8573235254db0c0b424746666f, type: 2}
   m_IsPrefabParent: 0
@@ -2203,6 +2213,16 @@ Prefab:
       value: 
       objectReference: {fileID: 1792809450547044, guid: 7f9983df1684a6242b8629d602e321e7,
         type: 2}
+    - target: {fileID: 114179353823257560, guid: d7c4bbbb4e698b741a0d2fd8a21aba61,
+        type: 2}
+      propertyPath: m_CellSize.x
+      value: 216
+      objectReference: {fileID: 0}
+    - target: {fileID: 114179353823257560, guid: d7c4bbbb4e698b741a0d2fd8a21aba61,
+        type: 2}
+      propertyPath: m_CellSize.y
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7c4bbbb4e698b741a0d2fd8a21aba61, type: 2}
   m_IsPrefabParent: 0
