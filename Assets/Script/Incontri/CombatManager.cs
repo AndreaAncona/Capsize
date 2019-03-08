@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CombatManager : MonoBehaviour
 {
@@ -279,13 +280,32 @@ public class CombatManager : MonoBehaviour
             limit = 2;
         else
             limit = 3;
+
+        List<CardsData> possibleCard = new List<CardsData>();
+
+        foreach (CardsData c in contenitoreCards.Cards)
+        {
+            if (c.Grado == Enemy.Grado && c.Fazione == Enemy.Fazione)
+            {
+                possibleCard.Add(c);
+            }
+        }
+
         for (int x = 0; x < limit; x++)
         {
-            do
+            if (Enemy.Grado != 0)
+            {
+                do
+                {
+                    i = Random.Range(0, possibleCard.Count);
+                }
+                while ((x == 2 && card1 == i) || (x == 3 && card2 == i));
+            }
+            else
             {
                 i = Random.Range(0, contenitoreCards.Cards.Length);
             }
-            while (contenitoreCards.Cards[i].Grado != Enemy.Grado || contenitoreCards.Cards[i].Fazione != Enemy.Fazione || (x == 2 && card1 == i) || (x == 3 && card2 == i));
+
             if (x == 1)
                 card1 = i;
             if (x == 2)
