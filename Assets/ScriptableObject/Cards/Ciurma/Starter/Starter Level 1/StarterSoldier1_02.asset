@@ -17,7 +17,7 @@ MonoBehaviour:
   Grado: 1
   Name: StarterSoldier1_02
   Attack: 1
-  Life: 3
+  Life: 4
   Effects: []
   Description: 
   SpriteImage: {fileID: 21300000, guid: d1e7157a546832f46ac5106c04f5e203, type: 3}
