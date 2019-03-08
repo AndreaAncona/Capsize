@@ -61,9 +61,7 @@ MonoBehaviour:
   - fmod_gain
   MasterBanks:
   - Master Bank
-  - Master Bank
   Banks:
   - Main Menu
   - Incontro
   - Map
-  - Master Bank
