@@ -174,6 +174,36 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed41b3d86f81d2043bfffe90e33cc590, type: 2}
   - {fileID: 11400000, guid: 93e487dfdda25064ab25c6c6d5eda976, type: 2}
   - {fileID: 11400000, guid: 71b4cfb84bb05b84489a401fabeff27f, type: 2}
+  - {fileID: 11400000, guid: 4ac4243a1f3de0a4c9b454753dfedb66, type: 2}
+  - {fileID: 11400000, guid: d76a5e7e5d21a8e4780d054a182f4d10, type: 2}
+  - {fileID: 11400000, guid: ea8be6dd10968c84b855946e3df1d862, type: 2}
+  - {fileID: 11400000, guid: 2e5f2ee2c067ad04cb385c5053c6a271, type: 2}
+  - {fileID: 11400000, guid: 46d0968ce28e34545b2fc31ccfa584ff, type: 2}
+  - {fileID: 11400000, guid: 7799b6b61a1a4d34aae6e35d3073a2cd, type: 2}
+  - {fileID: 11400000, guid: 70425eb51184e684b8a792792f5060d3, type: 2}
+  - {fileID: 11400000, guid: bb7aee9b314ea9e428e8ab213192b20f, type: 2}
+  - {fileID: 11400000, guid: 1e23e98a73b3fc0429bbed1f8474dbb8, type: 2}
+  - {fileID: 11400000, guid: a95db1e8d1763d842afd0d47b653a534, type: 2}
+  - {fileID: 11400000, guid: 3b5806e625c148647b72c2a6bacdfc61, type: 2}
+  - {fileID: 11400000, guid: 2fb336f6174a0414bb2db5d06799f51d, type: 2}
+  - {fileID: 11400000, guid: d73275e1cf4e4d949ae363420c40cfa1, type: 2}
+  - {fileID: 11400000, guid: 719ee53497ee4144cb19cd234b98115d, type: 2}
+  - {fileID: 11400000, guid: cbfc574b9bb39f742a8039e3a08a252a, type: 2}
+  - {fileID: 11400000, guid: 5f27118ba5bde6d4b952981c3b48d990, type: 2}
+  - {fileID: 11400000, guid: ae9a12253f9450f4b815603fd8e8a170, type: 2}
+  - {fileID: 11400000, guid: 8ede6267b4757934d837e313c9b88b8b, type: 2}
+  - {fileID: 11400000, guid: 05e03aa4b69568544975ab1a1c96afc8, type: 2}
+  - {fileID: 11400000, guid: 74d053de75f3ca04a9ba573439d05781, type: 2}
+  - {fileID: 11400000, guid: dfd2345d3ebb8994a9169e80ff5c6567, type: 2}
+  - {fileID: 11400000, guid: 1b623b0ff7627d542a759972ccddb3f2, type: 2}
+  - {fileID: 11400000, guid: 1acb9d83baa2d844296365f166c850d7, type: 2}
+  - {fileID: 11400000, guid: ba8a83a70f42c324cba02e3c74cb925a, type: 2}
+  - {fileID: 11400000, guid: 5fb58733d2822734b891725e4971d4a8, type: 2}
+  - {fileID: 11400000, guid: 2e794f526cf9f824489a35fd5d009269, type: 2}
+  - {fileID: 11400000, guid: 908f30a293caea9489530666ae9429ba, type: 2}
+  - {fileID: 11400000, guid: 7406e52c5d54fdc468476926da23a383, type: 2}
+  - {fileID: 11400000, guid: a26560fc66af0824a8c896cd3bb5b98a, type: 2}
+  - {fileID: 11400000, guid: 4c391e7941a8a76459663047af1c7c4d, type: 2}
   enemyFactions:
   - faction: 5
     level:
