@@ -313,7 +313,10 @@ public class CombatManager : MonoBehaviour
 
             card = Instantiate(GenericCard, chooseCardsPanel.GetChild(0));
             card.GetComponent<Card>().Zone = DropZoneType.Hand;
-            card.GetComponent<Card>().Data = contenitoreCards.Cards[i];
+            if (Enemy.Grado != 0)
+                card.GetComponent<Card>().Data = possibleCard[i];
+            else
+                card.GetComponent<Card>().Data = contenitoreCards.Cards[i];
             card.AddComponent<ChoosePurification>().OriginalCard = Enemy;
             Destroy(card.GetComponent<Draggable>());
         }
