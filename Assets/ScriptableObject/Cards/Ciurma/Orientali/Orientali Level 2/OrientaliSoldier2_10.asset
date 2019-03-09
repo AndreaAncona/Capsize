@@ -29,7 +29,7 @@ MonoBehaviour:
     Variable: 1
   - Effect: 14
     Variable: 1
-  Description: '+1/+1 ai pirati adiacenti. \nSupporto - Master: Supporta sia attacco
+  Description: '+1/+1 ai pirati adiacenti. Supporto - Master: Supporta sia attacco
     che difesa'
   SpriteImage: {fileID: 21300000, guid: 83af00f398b81a246bffaa411475a585, type: 3}
   SpriteImageOnDrag: {fileID: 21300000, guid: ef0749aeaab633348b910a9d1c0170fe, type: 3}
